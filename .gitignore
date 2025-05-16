@@ -1,0 +1,54 @@
+# Build directories
+/bin/
+/target/
+/build/
+
+# Eclipse/STS project files
+/.classpath
+/.project
+/.settings/
+.apt_generated/
+.factorypath
+/.sts4-cache/
+.metadata/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# IDE-specific files
+.idea/
+*.iml
+*.iws
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Maven files
+.mvn/
+!**/src/main/**/.keep
+
+# Gradle files
+.gradle/
+build/
+
+# OS-specific files
+ehthumbs.db
+Icon?
+
+# Environment variables
+.env
+
+# Exclude files in the colecoes_Parte_1 folder
+colecoes_Parte_1/bin/
+colecoes_Parte_1/target/
+colecoes_Parte_1/.settings/
+colecoes_Parte_1/.metadata/
+
+# SonarLint folder
+.sonarlint/
